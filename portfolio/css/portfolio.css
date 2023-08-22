@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px 80px;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav .nav-menu {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+}
+
+section .element-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  border: 1px solid #e4e4e4;
+}
+
+.content-title {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+/* 테이블 요소 */
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #e4e4e4;
+  font-size: 12px;
+  color: #555;
+}
+
+caption {
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
