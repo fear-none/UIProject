@@ -40,6 +40,7 @@ table, th, td {
   border: 1px solid #e4e4e4;
   font-size: 12px;
   color: #555;
+  text-align: center;
 }
 
 caption {
@@ -49,3 +50,206 @@ caption {
   font-weight: bold;
 }
 
+table thead {
+  background-color: #fbfbfb;
+  font-size: 12px;
+  color: #555;
+}
+
+.table-std {
+  font-weight: bold;
+}
+
+.cell-right {
+  text-align: right;
+}
+
+
+/* 폼 요소 */
+.list-title, form label {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+form {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+}
+
+input, option, .small-label {
+  font-size: 12px;
+  color: #000;
+  font-weight: normal;
+}
+
+.one {
+  width: 100%;
+}
+
+button {
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 12px;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-small {
+  font-size: 12px;
+}
+.btn-large {
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* 리스트 요소 */
+.list-item {
+  border: 1px solid #e4e4e4;
+}
+
+.term-title {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+dt {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+dt span {
+  font-size: 12px;
+  color: #559bfa;
+  font-weight: normal;
+}
+
+dd {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+}
+
+.keyword {
+  list-style: none;
+}
+
+.keyword li {
+  counter-increment: step-counter;
+}
+
+/* .keyword li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+} */
+
+
+.keyword li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+li {
+  font-size: 12px;
+  color: #000;
+}
+
+.keyword li::before {
+  content: counter(step-counter);
+  font-size: 10px;
+  color: #666;
+  border: 1px solid #e0e0e0;
+  width: 17px;
+  height: 17px;
+  text-align: center;
+}
+
+li.bold {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.blue {
+  color: #559bfa;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.red {
+  color: #ec5336;
+}
+
+
+.cut {
+  border: 1px solid #71b036;
+  background-color: #80c83d;
+  font-size: 10px;
+  color: #fff;
+}
+
+.smart {
+  border: 1px solid #df4e28;
+  background-color: #ec5336;
+  font-size: 10px;
+  color: #fff;
+}
+
+.webtoon a {
+  text-decoration: none;
+}
+
+.webtoon-title {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+
+.webtoon-episode {
+  font-size: 12px;
+  color: #000;
+}
+
+.news-item{
+  /* position: relative; */
+  /* float: left; */
+}
+
+.news-item img {
+  float: left;
+}
+
+.news-title {
+  font-size: 14px;
+  color: #00c;
+  font-weight: bold;
+}
+
+.news-line {
+  font-size: 12px;
+  color: #000; 
+}
+
+.clear {
+  clear: both;
+}
+
+.webtoon .list-item {
+  width: 100%;
+}
+
+.webtoon a {
+  float: left;
+  width: 33.33%;
+}
